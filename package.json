@@ -1,5 +1,5 @@
 {
-  "name": "easy-peasy-bot",
+  "name": "GreBot",
   "version": "1.0.0",
   "description": "The awesomest bot evar.",
   "main": "index.js",
@@ -25,8 +25,13 @@
     "node": "5.1.1"
   },
   "dependencies": {
+    "bot-context": "^0.2.6",
     "botkit": "0.2.2",
     "botkit-storage-mongo": "^1.0.2",
-    "mongodb": "^1.4.39"
+    "moment": "^2.24.0",
+    "mongodb": "^1.4.39",
+    "mysql": "^2.16.0",
+    "nodemailer": "^5.1.1",
+    "underscore": "^1.9.1"
   }
 }
